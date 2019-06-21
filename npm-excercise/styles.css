@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap');
+
+
+
+.clearfix {
+  clear: both; 
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Libre Franklin;
+  line-height: 50px;
+  color: white;
+}
+
+h2{
+  font-size: 35px;
+  font-family: Libre Franklin;
+  line-height: 50px;
+  color: white;
+
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 50px;
+  font-family: Montserrat;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0; 
+  position: relative;
+  top: -15px;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.heart, .acronym{
+  position: relative;
+  top: 5px;
+  margin: 0 0 0 20px;
+}
+/* Fin de primer style nav */
+
+/* Inicia style de header */
+.build-amazing{
+  background-image: url("images/city-scape.svg");
+  background-size: cover;
+  height: 650px;
+}
+
+#npm-logo{
+  margin: 20px 28px 0 28px;
+  width: 10%;
+  height: 10%;
+}
+.header-top-links{
+  display: inline-block;
+  float: right;
+  font-family: Montserrat;
+}
+
+.header-top-links li{
+  display: inline-block;
+  list-style-type: none;
+  margin:0 7px;
+}
+
+.header-top-links a, .header-top-links span{
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+  position: relative;
+  top: -10px;
+  font-size: 18px;
+}
+
+#bear-logo{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 4px;
+}
+#search-input{
+  width: 800px;
+  height: 35px;
+  font-size: 20px;
+  background-color: #1F526E;
+  opacity: 40%;
+  border: 2px solid #386483;
+  vertical-align: 95%;
+}
+
+.below-header{
+  width: 40%;
+  margin: 100px 300px 100px 180px;
+  color: white;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+#sign-up-npm-btn{
+  background-color: rgb(240, 146, 51);
+  border-radius: 30px;
+  border: 2px solid rgb(240, 146, 51);
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 35px;
+  font-family: Montserrat;
+}
+/* Fin de primer style header */
+
+/* Inicia style de collaboration */
+
+.collaboration{
+  background-color: rgb(39, 53, 71);
+  height: 650px;
+
+}
+
+.collaboration h1{
+  width: 700px;
+}
+
+.collaboration img{
+  width: 450px;
+  height: 450px;
+  margin: 100px 0 0 0;
+  /* border: 2px solid blue; */
+}
+
+.collab-div{
+  width: 1000px;
+  height: 650px;
+  /* border: 5px solid green; */
+  margin: 0 auto;
+}
+.collab-content{
+  width: 500px;
+  float: right;
+  display: block;
+  margin: 100px 0 0 0;
+  /* border: 2px solid blue; */
+}
+
+.collaboration-ul{
+  font-family: Montserrat;
+  color: white;
+  line-height: 35px;
+}
+
+#sign-up-org-btn{
+  background-color: rgb(203, 56, 55);
+  border-radius: 30px;
+  border: 2px solid rgb(203, 56, 55);
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  font-family: Montserrat;
+}
+
+.collab-content span{
+  font-family: Montserrat;
+  color: white
+}
+
+.collab-content a{
+  text-decoration: none;
+  color: white;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+/* fin de style section collab */
+
+/* inicia style section what is */
+
+.what-is{
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+  height: 650px;
+  position: relative;
+}
+
+.what-is div{
+  position: absolute;
+  top: 150px;
+  left: 135px;
+  width: 400px;
+}
+
+.what-is p{
+  font-family: Montserrat;
+  color: white;
+  line-height: 1.6em;
+}
+
+.what-is button{
+  background-color: #34495E;
+  border-radius: 30px;
+  border: 2px solid #34495E;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Montserrat;
+}
+
+/* incia style de what can you make */
+
+
+.what-can-general{
+  width:1200px;
+  height: 550px;
+  margin:0 auto;
+  /* border: 2px solid green */
+  
+}
+.what-can-you-make h2{
+  color: black;
+}
+
+.what-can-text p{
+  font-family: Montserrat;
+}
+
+.what-can-text{
+  width:1000px;
+  margin: 0 auto 30px auto;
+  /* border: 2px solid blue; */
+  text-align: center;
+}
+
+.box h3{
+  font-family: Oxygen;
+  color: black;
+  font-size: 20px;
+}
+
+.box p{
+  font-family: Montserrat;
+}
+
+.box a{
+  text-decoration: none;
+  color: #D96F6E;
+}
+
+.box{
+  /* border: 2px solid gray; */
+  width: 33%;
+  padding: 2%;
+  margin: 0 2px 0 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.col-3{
+  float: right;
+}
